@@ -1,0 +1,7 @@
+.notFoundContainer {
+  text-align: center;
+}
+.notFoundContainer .notFoundIcon {
+  margin: 0 auto;
+  font-size: 16rem;
+}

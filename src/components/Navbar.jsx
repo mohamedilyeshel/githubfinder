@@ -1,15 +1,15 @@
 // Hooks and libraries
 import { AiFillGithub } from "react-icons/ai";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar bg-neutral shadow-lg mb-3">
       <div className="container flex flex-row justify-between">
-        <div className="leftSide text-xl flex flex-row items-center">
+        <Link to="/" className="leftSide text-xl flex flex-row items-center">
           <AiFillGithub className="mr-1" />
           <h1 className="font-bold">Github Finder</h1>
-        </div>
+        </Link>
         <div className="rightSide">
           <NavLink
             to="/"
